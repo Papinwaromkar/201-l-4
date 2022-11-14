@@ -1,0 +1,33 @@
+{
+  "name": "l4",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00002\u00000\u00001\u0000-\u0000l\u0000-\u00004\u0000\r\u0000 \u0000",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papinwaromkar/201-l-4.git"
+  },
+  "author": "omkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papinwaromkar/201-l-4/issues"
+  },
+  "homepage": "https://github.com/Papinwaromkar/201-l-4#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
